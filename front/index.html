@@ -175,13 +175,12 @@
             /* Adiciona um espaço acima do botão */
         }
 
-        button {
+        .button-cadastrar {
             background-color: #70a1ff;
             color: white;
             padding: 12px 25px;
             border: none;
             border-radius: 10px;
-            cursor: pointer;
             font-size: 1.1em;
             transition: background-color 0.3s ease;
         }
@@ -194,6 +193,10 @@
             margin-top: 15px;
             color: #4a4e69;
             font-size: 0.9em;
+        }
+
+        .login-entrar {
+            color: #70a1ff;
         }
 
         .login-link a {
@@ -255,12 +258,13 @@
                     </div>
                 </div>
                 <div class="button-container">
-                    <button class="button-cadastrar" type="submit">Cadastrar</button>
+                    <div class="button-cadastrar" type="submit">Cadastrar</div>
                 </div>
             </form>
         </div>
         <div class="cadastro-footer">
-            <p class="login-link">Já possui uma conta? <a href="#">Entrar</a></p>
+            <p class="login-link">Já possui uma conta?</p>
+            <p class="login-entrar">Entrar</p>
         </div>
     </div>
 </body>
