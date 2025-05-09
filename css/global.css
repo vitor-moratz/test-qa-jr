@@ -1,0 +1,117 @@
+/* Reset de margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos do body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2e2b5f; /* Cor de fundo do protótipo */
+    color: #fff;
+}
+
+/* Estilos da barra superior */
+.topbar {
+    background-color: #3f3b9d;
+    padding: 15px 30px;
+}
+
+.topbar ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+}
+
+.topbar li {
+    margin-right: 20px;
+}
+
+.topbar li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.topbar li img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+/* Estilos do conteúdo principal */
+#main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* Estilo do título */
+#main-content font {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* Estilo da caixa de formulário */
+.form-box {
+    background-color: #4e4ab8; /* Cor de fundo para a caixa */
+    padding: 20px;
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-box input,
+.form-box select,
+.form-box textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.form-box textarea {
+    height: 100px;
+}
+
+.form-box button {
+    background-color: #00bcd4; /* Cor do botão */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.form-box button:hover {
+    background-color: #0098a6;
+}
+
+/* Estilo para o botão de fechar */
+.fechar {
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color: #fff;
+}
+
+.fechar:hover {
+    color: #f00;
+}
+
+/* Estilos de links */
+a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
